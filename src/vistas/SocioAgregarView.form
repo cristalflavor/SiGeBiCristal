@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPSocioAgregar" min="-2" pref="743" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="53" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPSocioAgregar" min="-2" pref="377" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="52" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPSocioAgregar">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
+                              <Component id="jLNumSocio" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLEst" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jLEstado" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLImagen" min="-2" pref="145" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="27" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLNombre" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="jLNumeroDeSocio" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="jLApellido" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTFNombre" max="32767" attributes="0"/>
+                                          <Component id="jTFApellido" max="32767" attributes="0"/>
+                                          <Component id="labelInformativo" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLDni" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLDomicilio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLTelefono" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLMail" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTFDomicilio" pref="332" max="32767" attributes="0"/>
+                                          <Component id="jTFMail" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="jTFTelefono" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jLFechaDeBajaDEFAULT" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jLFechaDeAltaDEFAULT" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTFDNI" alignment="0" min="-2" pref="212" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLFechaDeAlta" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLFechaDeBaja" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="jLAgregarSocios" min="-2" pref="145" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="242" max="-2" attributes="0"/>
+                      <Component id="jLReset" min="-2" pref="63" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLCancelar" min="-2" pref="65" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLAgregar" min="-2" pref="62" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="164" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLNumSocio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLNumeroDeSocio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelInformativo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLImagen" min="-2" pref="160" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLEst" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLApellido" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTFApellido" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTFNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLDomicilio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTFDomicilio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTFDNI" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLDni" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTFTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTFMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="17" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLFechaDeAlta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLFechaDeAltaDEFAULT" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLFechaDeBaja" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLFechaDeBajaDEFAULT" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLAgregarSocios" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLAgregar" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLReset" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="jLCancelar" alignment="3" min="-2" pref="65" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLApellido">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apellido:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLNombre">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nombre:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLDomicilio">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Domicilio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLDni">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DNI:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLImagen">
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLImagenMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLNumSocio">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Socio n&#xfa;mero:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLEst">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Estado:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLNumeroDeSocio">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLEstado">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Socio Activo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFApellido">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFApellidoActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTFApellidoKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFNombre">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFNombreActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTFNombreKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFDomicilio">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFDomicilioActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTFDomicilioKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFDNI">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFDNIActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTFDNIKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLAgregar">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/vistas/imagenes/agregarSocio2.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLAgregarMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLAgregarMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLAgregarMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLReset">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/vistas/imagenes/resetear.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reset"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLResetMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLResetMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLResetMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLCancelar">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/vistas/imagenes/cancelar.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cancelar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLCancelarMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLCancelarMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLCancelarMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaDeAlta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Alta:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaDeBaja">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fecha de Baja:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLAgregarSocios">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Historic" size="18" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="d2" green="a0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Agregar socios"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLTelefono">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFTelefono">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFTelefonoActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTFTelefonoKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLMail">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="E-Mail:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTFMail">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTFMailActionPerformed"/>
+                <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTFMailKeyReleased"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaDeAltaDEFAULT">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLFechaDeBajaDEFAULT">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelInformativo">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
